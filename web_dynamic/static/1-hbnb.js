@@ -28,7 +28,7 @@ $('document').ready(
                     $('div.amenities h4').append(a_id.replace(/:/g, ""))
 
                     if ($('div.amenities h4').text().length > 31) {
-                        console.log('greater than 34')
+                        //console.log('greater than 34')
                         $('div.amenities h4').text($('div.amenities h4').text().substring(0, 31))
                         $('div.amenities h4').append("...")
                     }
